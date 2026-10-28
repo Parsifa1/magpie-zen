@@ -1,0 +1,31 @@
+{
+  "name": "@magpie-community/opencode-zen-free-auth",
+  "version": "0.2.0",
+  "description": "OpenCode Zen free models through the public credential, with aligned paths, modern client identity, and resting lockout mitigation",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "provider.mjs",
+    "models.mjs",
+    "stream.mjs",
+    "tool-response.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "zen",
+    "free",
+    "magpie"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  },
+  "magpie": {
+    "icon": "https://opencode.ai/favicon-v3.ico",
+    "maxConcurrency": 2
+  }
+}
