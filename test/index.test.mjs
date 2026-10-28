@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 import { protocols, declaredTools, toolReply } from "./tool-fixtures.mjs";
 
-const subject = import("./index.mjs").then((module) => ({
+const subject = import("../src/index.mjs").then((module) => ({
   default: { server: module.ZenFreePlugin },
 }));
 

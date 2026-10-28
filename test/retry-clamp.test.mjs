@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { sanitizeErrorResponse } from "./provider.mjs";
+import { sanitizeErrorResponse } from "../src/provider.mjs";
 
 test("sanitizeErrorResponse clamps excessive Retry-After header to 10 seconds", () => {
   const raw = new Response(

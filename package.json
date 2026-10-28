@@ -3,13 +3,13 @@
   "version": "0.2.0",
   "description": "OpenCode Zen free models through the public credential, with aligned paths, modern client identity, and resting lockout mitigation",
   "type": "module",
-  "main": "./index.mjs",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
   "files": [
+    "src",
     "index.mjs",
-    "provider.mjs",
-    "models.mjs",
-    "stream.mjs",
-    "tool-response.mjs",
     "README.md",
     "LICENSE"
   ],

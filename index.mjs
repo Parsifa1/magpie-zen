@@ -1,4 +1,2 @@
-import plugin from "./provider.mjs";
-
-export const ZenFreePlugin = plugin.server;
-export default plugin;
+export * from "./src/index.mjs";
+export { default } from "./src/index.mjs";

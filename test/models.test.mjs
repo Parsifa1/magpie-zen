@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-const subject = import("./models.mjs").catch(() => ({}));
+const subject = import("../src/models.mjs").catch(() => ({}));
 const provider = {
   npm: "@ai-sdk/openai-compatible",
   models: {

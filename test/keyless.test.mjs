@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { ZenFreePlugin } from "./index.mjs";
+import { ZenFreePlugin } from "../src/index.mjs";
 
 test("Zen Free declares one keyless public identity without changing authorize", async () => {
   const hooks = await ZenFreePlugin({ client: { auth: { set: async () => { throw Error("unexpected auth write"); } } } });

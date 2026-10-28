@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { opencodeID, realSessionID, sessionID } from "./provider.mjs";
+import { opencodeID, realSessionID, sessionID } from "../src/provider.mjs";
 
 const SHAPE = /^ses_[0-9a-f]{12}[0-9A-Za-z]{14}$/;
 

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { collapseResponse } from "./stream.mjs";
+import { collapseResponse } from "../src/stream.mjs";
 
 const encoder = new TextEncoder();
 const event = (data, name) =>
